@@ -1,4 +1,6 @@
-#Lu Zhang AOSC458J decadal anomaly script 
+'''This script reads in the University of Delaware Climatology Dataset, calculates the historical trends in precipitation, 
+and plots the results on a basemap (Changes in Climatology 1990 to 2000 with respect to the Base Period (1950 - 2011)). 
+'''
 
 import numpy as np
 import matplotlib.pyplot as plt
