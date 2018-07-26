@@ -1,3 +1,10 @@
+''' This script produces a scatter plot of the Hourly Wind Speed (HOURLYWindSpeed) vs Hourly Station Pressure (HOURLYStationPressure).
+Any wind speeds over 70% of max wind should be colored red.  '''
+
+'''Data downloaded from National Center for Environmental Information (NCEI)'''
+
+
+
 import numpy as np 
 import matplotlib.pyplot as plt
 
