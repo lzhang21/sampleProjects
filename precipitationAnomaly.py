@@ -1,4 +1,6 @@
-#Lu Zhang AOSC458J final anomaly script, this script makes a animation of the the precipitation anomalies for each year with respect to the base period
+''' This script calculates the year-to-year Winter Precipitation Anomalies over the Indus Basin for each year starting from 1950 
+and plots it on a basemap, using the ffmpeg the output can be turned into a animation'''
+
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -13,7 +15,7 @@ summerRange = np.arange(103,344,4)
 yearRange = np.arange(1950,2011,1)
 
 
-filename = '/homes/metogra/lzhang21/AOSC458J/Final/udel_0.25x0.25_seas_1925-2014.nc' 
+filename = '/homes/metogra/lzhang21/Final/udel_0.25x0.25_seas_1925-2014.nc' 
 f= netCDF4.Dataset(filename, mode='r')
 
 ##Gets the average winter precipitation 
@@ -38,7 +40,7 @@ i = 0
 while (i < 61):
 
 	#give the path to the file to be read and opens the netcdf file 
-	filename = '/homes/metogra/lzhang21/AOSC458J/Final/udel_0.25x0.25_seas_1925-2014.nc' 
+	filename = '/homes/metogra/lzhang21/Final/udel_0.25x0.25_seas_1925-2014.nc' 
 	f= netCDF4.Dataset(filename, mode='r')
 
 	#Prints the dimensions of each variable 
