@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 ##Read the csv file
-data = 'hw6data.csv'
+data = 'NCEIdata.csv'
 
 """Making a 2d numpy array from data where only the wind and pressure columns are taken
 Also masked and hide columns with no values"""
