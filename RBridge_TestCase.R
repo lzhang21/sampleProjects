@@ -1,3 +1,7 @@
+#Instead of using the summarize within tool on ArcGIS, I brought in some spatial data to R and performed a aggregation
+#Summaraizes total length of impaired waters for each state 
+
+
 #Load R-ArcGIS Bridge and other modules and set working directory 
 library(ggplot2)
 library(stringr)
